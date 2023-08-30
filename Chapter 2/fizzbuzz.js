@@ -3,11 +3,13 @@ for(let counter=1; counter<=100; counter++) {
     let buzz = ''
     let number = counter
 
-    if(counter % 3 == 0) {
+    // Activates the string "Fizz" and sets numbers divisble by 3 to an empty string
+        if(counter % 3 == 0) {
         fizz = 'Fizz';
         number = '';
     }
 
+    // Activates the string "Buzz" and sets numbers divisble by 5 to an empty string
     if(counter % 5 == 0) {
         buzz = 'Buzz';
         number = '';
